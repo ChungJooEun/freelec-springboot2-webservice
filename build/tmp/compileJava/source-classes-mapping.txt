@@ -19,11 +19,11 @@ com/jojoldu/book/springboot/domain/posts/Posts.java
  com.jojoldu.book.springboot.domain.posts.Posts$PostsBuilder
 com/jojoldu/book/springboot/web/dto/PostsListResponseDto.java
  com.jojoldu.book.springboot.web.dto.PostsListResponseDto
+com/jojoldu/book/springboot/domain/posts/PostsRepository.java
+ com.jojoldu.book.springboot.domain.posts.PostsRepository
 com/jojoldu/book/springboot/web/PostsApiController.java
  com.jojoldu.book.springboot.web.PostsApiController
 com/jojoldu/book/springboot/service/posts/PostsService.java
  com.jojoldu.book.springboot.service.posts.PostsService
-com/jojoldu/book/springboot/domain/posts/PostsRepository.java
- com.jojoldu.book.springboot.domain.posts.PostsRepository
 com/jojoldu/book/springboot/web/IndexController.java
  com.jojoldu.book.springboot.web.IndexController
