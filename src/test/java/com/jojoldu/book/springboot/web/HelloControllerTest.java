@@ -1,6 +1,8 @@
 package com.jojoldu.book.springboot.web;
 
 //Junit5로 와서 바뀐 코드
+import com.jojoldu.book.springboot.config.auth.CustomOAuth2UserService;
+import com.jojoldu.book.springboot.config.auth.SecurityConfig;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
@@ -11,7 +13,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultActions;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
