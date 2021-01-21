@@ -27,7 +27,7 @@ deploy:
   skip_cleanup: true
   acl: private
   local_dir: deploy # before_deploy 에서 생성한 디렉토리
-  wait-util-deployed: true
+  wait-until-deployed: true
 
 # CI 실행 완료시 메일로 알람
 notifications:
