@@ -36,8 +36,8 @@ deploy:
     bucket: sunding-springboot-build # S3 버킷
     key: freelec-springboot2-webservice.zip
     bundle_type: zip
-    application: sunding-springboot2-webservice
-    deployment_group: sunding-springboot2-webservice-group
+    application: ssunding-springboot-webservice
+    deployment_group: ssunding-springboot-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
 
